@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <!-- informações para o navegador, metadado-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fauna Brasileira</title>
+</head>
+<body>
+    <header>
+        <h1>Animais do Brasil</h1>
+        <h3>Navegue e pesquise sobre alguns animais presentes na nossa fauna. Clique em "informações" para mais referências.</h3>
+
+
+    </header>
+    <main>
+        <section>
+                <input type="text" placeholder="Digite sua pesquisa"
+                id="campo-pesquisa">
+                <button onclick="pesquisa()">Pesquisar</button>
+            </section>
+            <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+            </main>
+            <footer>
+                <p>
+                    2024 - Fauna brasileira. Todos direitos reservados
+                </p>
+                <p>
+                    Dúvidas ou sugestões? Entre em contato pelo e-mail duvidas@fauna.com.br
+                </p>
+            </footer>
+            
+    <script src="dados.js"></script>
+    <script src="app.js"></script>    
+</body>
+</html>
